@@ -7,6 +7,7 @@
 #'
 #' @return Data Frame containing the columns provided as SLS_YR, SLS_MNTH_INT and a index
 #' @export
+#' @importFrom magrittr '%>%'
 #'
 #' @examples monthIndex(sales_by_month, SLS_YR = SLS_YR, SLS_MNTH_INT = SLS_MNTH_INT)
 monthIndex = function(df, SLS_YR, SLS_MNTH_INT) {
